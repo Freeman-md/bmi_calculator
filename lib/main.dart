@@ -8,7 +8,7 @@ class BMICalculator extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.red,
+          backgroundColor: Color(0xFF0A0E21),
         ),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
           backgroundColor: Colors.purple
