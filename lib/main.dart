@@ -13,7 +13,13 @@ class BMICalculator extends StatelessWidget {
         floatingActionButtonTheme: FloatingActionButtonThemeData(
           backgroundColor: Colors.purple
         ),
-        scaffoldBackgroundColor: const Color(0xFF0A0E21)
+        scaffoldBackgroundColor: const Color(0xFF0A0E21),
+        textTheme: TextTheme(
+          bodyText2: TextStyle(
+            color: Colors.white
+          ),
+        )
+
       ),
       home: InputPage(),
     );
